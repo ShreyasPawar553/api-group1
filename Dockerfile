@@ -8,7 +8,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git && apt-get clean
 
 # Clone the GitHub repository
-RUN git clone https://github.com/ShreyasPawar553/docker-repo.git /app
+RUN git clone https://github.com/ShreyasPawar553/api-group1.git /app
 
 # Install Python dependencies from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
